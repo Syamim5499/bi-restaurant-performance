@@ -6,6 +6,8 @@ Interactive BI case study using the public **tips** teaching dataset distributed
 How do recorded bills and weighted tipping rates vary by day, service period, and party size?
 
 ## Dashboard
+[Open the live dashboard](https://syamim5499.github.io/bi-restaurant-performance/).
+
 Open [index.html](index.html) in a browser. No install or account required. Day, Service period, and Party size filters update four KPIs and two charts. Hover on chart marks for exact values.
 
 ## Findings from the supplied sample
