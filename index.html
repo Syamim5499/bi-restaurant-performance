@@ -10,4 +10,4 @@
 ],charts:[
 {key:'day',title:'Bill total by day',description:'Sum of recorded bills for selected checks.',type:'bar',format:'currency',sort:(a,b)=>['Thur','Fri','Sat','Sun'].indexOf(a)-['Thur','Fri','Sat','Sun'].indexOf(b),calc:r=>r.reduce((s,x)=>s+x.bill,0)},
 {key:'size',title:'Tip rate by party size',description:'Weighted rate: sum of tips divided by sum of bills.',type:'bar',format:'percent',sort:(a,b)=>+a-+b,calc:r=>r.reduce((s,x)=>s+x.tip,0)/r.reduce((s,x)=>s+x.bill,0)}
-],source:"https://github.com/mwaskom/seaborn-data/blob/master/tips.csv",sourceLabel:"tips sample via seaborn-data",unit:"checks"};</script><script src="dashboard.js"></script></body></html>
+],source:"https://github.com/mwaskom/seaborn-data/blob/master/tips.csv",sourceLabel:"tips sample via seaborn-data",unit:"checks"};</script><script src="dashboard.js?v=2"></script></body></html>
